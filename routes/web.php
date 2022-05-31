@@ -17,8 +17,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/home/{id}', [App\Http\Controllers\HomeController::class, 'show'])->name('home.show');
 Route::post('/home/{id}', [App\Http\Controllers\HomeController::class, 'store'])->name('home.store'); 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
