@@ -31,16 +31,16 @@
       <a href="#responsive-header" class="ml-20 text-gray-400 hover:text-gray-500 text-lg ">
         Examples
       </a>
-      <a href="#responsive-header" class="ml-20 text-white text-lg ">
+      <a href="#responsive-header" class="ml-20 text-white text-lg text-gray-400 hover:text-gray-500 ">
         Blog
       </a>
-      <a href="#responsive-header" class="ml-20 text-white text-lg ">
+      <a href="#responsive-header" class="ml-20 text-white text-lg text-gray-400 hover:text-gray-500 ">
         Blog
       </a>
-      <a href="#responsive-header" class="ml-20 text-white text-lg ">
+      <a href="#responsive-header" class="ml-20 text-white text-lg text-gray-400 hover:text-gray-500 ">
         Blog
       </a>
-      <a href="#responsive-header" class="ml-20 text-white text-lg">
+      <a href="#responsive-header" class="ml-20 text-white text-lg text-gray-400 hover:text-gray-500">
         Blog
       </a>
     </div>
@@ -56,6 +56,7 @@
     <img class="grayscale bg-cover bg-center w-full h-full flex" src="https://images.pexels.com/photos/5212331/pexels-photo-5212331.jpeg?cs=srgb&dl=pexels-max-fischer-5212331.jpg&fm=jpg">
     </div>
     <!-- component -->
+    <div class="">
 <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -172,8 +173,8 @@
                 </div>
                 </div>
                 <!-- Enterprise Card -->
-                <div data-aos="fade-up"></div>
-                <div  class="w-96 p-8 bg-white text-center rounded-3xl pl-16 shadow-xl">
+                <div data-aos="fade-down    ">
+                <div class="w-96 p-8 bg-white text-center rounded-3xl pl-16 shadow-xl">
                     <h1 class="text-black font-semibold text-2xl">Enterprise</h1>
                     <p class="pt-2 tracking-wide">
                         <span class="text-gray-400 align-top">$ </span>
@@ -221,6 +222,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
